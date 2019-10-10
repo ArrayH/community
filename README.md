@@ -28,3 +28,4 @@ https://git-scm.com/download  git下载
 13.git status
 14.git push -u origin master 将本地代码库上传至远程代码库管理
 
+git commit --amend --no-edit 变化的文件追加上去

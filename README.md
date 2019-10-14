@@ -13,6 +13,19 @@
 [Git](https://git-scm.com/download)
 [Visual Paradigm](https://www.visual-paradigm.com)
 
+##脚本
+```sql
+CREATE TABLE `user` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `ACCOUNT_ID` varchar(100) DEFAULT NULL,
+  `NAME` varchar(50) DEFAULT NULL,
+  `TOKEN` char(36) DEFAULT NULL,
+  `GMT_CREATE` bigint(20) DEFAULT NULL,
+  `GMT_MODIFIED` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
+```
+
 ##windows指令及步骤：
 1.dir 进入当前目录
 2.chdir 改变当前目录
